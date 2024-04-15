@@ -10,6 +10,7 @@ import pages.RegistrationPage;
 import static Registration.UtilityClass.*;
 import static Registration.UtilityClass.generateRandomPassword;
 
+@Listeners(TestListener.class)
 public class ErrorMessagesValidationsTests {
 
     private WebDriver driver;
