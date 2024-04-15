@@ -10,6 +10,7 @@ import pages.RegistrationPage;
 
 import static Registration.UtilityClass.*;
 
+@Listeners(TestListener.class)
 public class SignupTests {
 
     private WebDriver driver;
