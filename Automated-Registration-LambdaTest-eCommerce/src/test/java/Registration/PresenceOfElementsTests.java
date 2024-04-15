@@ -17,6 +17,7 @@ import pages.RegistrationPage;
 
 import java.time.Duration;
 
+@Listeners(TestListener.class)
 public class PresenceOfElementsTests {
 
     private WebDriver driver;
